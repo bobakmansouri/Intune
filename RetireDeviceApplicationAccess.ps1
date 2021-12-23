@@ -1,5 +1,8 @@
 <#
 
+how to run:
+
+& '.\RetireDeviceApplicationAccess.ps1' -client_id theclientid -tenant_id thetenantid -client_secret theclientsecret -mail user@user.com -local_log_path C:\temp\DeviceDeprovReport.log -retire_TF TRUE
 Babak Mansouri
 
 This will remove devices associated with a user
