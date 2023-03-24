@@ -238,7 +238,7 @@ try {
 
 }
 
-#################################################### BABAK
+#################################################### 
 
 Function Get-ManagedDevicesFiltered(){
 
@@ -402,10 +402,10 @@ $JSON = @"
                 write-host
                 
                 # if you want confirmation change the next few lines
-                # Removed by Babak #                 write-host "Are you sure you want to change the device ownership to 'company' on this device? Y or N?"
-                # Removed by Babak #                   $Confirm = read-host
+                # Removed  #                 write-host "Are you sure you want to change the device ownership to 'company' on this device? Y or N?"
+                # Removed  #                   $Confirm = read-host
                 
-                #added by Babak
+                #added
                 write-host "Device Ownership changed. Device ID: $($id) , Ownership: $($ownertype) "
                 
                 Write-Log " Device Ownership changed. Device ID: $($id) , Ownership: $($ownertype)"
@@ -438,10 +438,10 @@ $JSON = @"
 "@
 
                 write-host
-# Removed by Babak #      write-host "Are you sure you want to change the device ownership to 'personal' on this device? Y or N?"
-# Removed by Babak #      $Confirm = read-host
+# Removed by  #      write-host "Are you sure you want to change the device ownership to 'personal' on this device? Y or N?"
+# Removed by  #      $Confirm = read-host
                 
-                 #added by Babak
+                 #added by 
                 write-host "Device Ownership changed. Device ID: $($id) , Ownership:  + $($ownertype) "
                 
                 $Confirm ="Y"
